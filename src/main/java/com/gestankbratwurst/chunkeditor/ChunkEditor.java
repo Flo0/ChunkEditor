@@ -1,7 +1,6 @@
 package com.gestankbratwurst.chunkeditor;
 
 import org.bukkit.Bukkit;
-import org.bukkit.Material;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /*******************************************************
