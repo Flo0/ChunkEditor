@@ -19,9 +19,7 @@ public final class ChunkEditor extends JavaPlugin {
   public void onEnable() {
 
     ChunkEditManager chunkEditManager = new ChunkEditManager(this);
-
     ChunkEditorAPI.init(chunkEditManager);
-
     Bukkit.getPluginManager().registerEvents(new ChunkEditListener(chunkEditManager), this);
 
   }
