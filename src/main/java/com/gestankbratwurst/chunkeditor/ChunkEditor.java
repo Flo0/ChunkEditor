@@ -1,6 +1,7 @@
 package com.gestankbratwurst.chunkeditor;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Material;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /*******************************************************
@@ -22,6 +23,7 @@ public final class ChunkEditor extends JavaPlugin {
     Bukkit.getPluginManager().registerEvents(new ChunkEditListener(chunkEditManager), this);
 
   }
+
 
   @Override
   public void onDisable() {
